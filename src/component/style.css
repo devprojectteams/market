@@ -1,0 +1,71 @@
+
+.media{
+    /* width: 100px; */
+    height: 100%;
+    overflow: hidden;
+}
+.content{
+    position: absolute;
+    top: 100%;
+    padding: 10px;
+    color: white;
+
+}
+.myCard{
+    position: relative;
+    border-radius: 25px;
+}
+h2.content-header{
+    font-size: 16px;
+    
+}
+h2.content-subtitle{
+    font-size: 13px;
+}
+.d-card{
+    display: grid;
+    place-items: center;
+}
+.myImage{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  
+}
+.myBox{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    background-color: white;
+
+}
+.content-card{
+    line-height: 1.0;
+}
+
+h2.title{
+    font-family: sans-serif, 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+}
+p.subtitle{
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 10%;
+    font-family: sans-serif, 'Source Sans Pro';
+}
+p.address{
+    font-size: 10px;
+    font-weight: 400;
+    
+
+}
+.content-first-row{
+    margin-bottom: 10%;
+}
